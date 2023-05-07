@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#info{
+    position: fixed;
+    width: 100vw;
+    top: 5rem;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+.death{
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    color: red;
+}
+
+#score{
+    top: 40vh;
+    font-size: 64px;
+}
+
+#deathMessage{
+    top: 20vh;
+    font-size: 64px;
+}
+
+#refresh{
+    top: 60vh;
+    font-size: 32px;
+}
